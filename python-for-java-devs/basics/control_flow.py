@@ -99,8 +99,9 @@ print()
 
 # pass (Python特有，占位符)
 def empty_function():
-    pass  # TODO: 实现这个函数
-
+    name = 56
+    print(f"我是谁{name}")
+empty_function()
 # 循环的else (Python特有，循环正常结束时会执行)
 print("\n=== 循环的else ===")
 for i in range(3):

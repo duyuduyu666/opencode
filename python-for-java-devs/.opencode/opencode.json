@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "mysql-server": {
+      "type": "local",
+      "command": ["C:\\Users\\12976\\.pyenv\\pyenv-win\\versions\\3.11.9\\python.exe", "mcp_database_server.py"],
+      "enabled": true
+    }
+  }
+}
